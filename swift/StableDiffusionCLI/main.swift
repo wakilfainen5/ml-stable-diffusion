@@ -12,7 +12,7 @@ import CoreImage
 import NaturalLanguage
 
 @available(iOS 16.2, macOS 13.1, *)
-struct StableDiffusionSample: ParsableCommand {
+struct StableDiffusionSample: ParsableCommand {           
 
     static let configuration = CommandConfiguration(
         abstract: "Run stable diffusion to generate images guided by a text prompt",
